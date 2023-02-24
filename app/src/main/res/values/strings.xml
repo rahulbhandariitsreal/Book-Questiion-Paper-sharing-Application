@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">ALL QUESTION PAPERS</string>
+    <string name="ulname">www.growthaddicted.com</string>
+    <string name="question_papers">Question Papers</string>
+
+    <string-array name="courses_name">
+        <item>SELECT COURSE</item>
+        <item>NDA</item>
+        <item>CBSE 10</item>
+        <item>CBSE 12</item>
+        <item>CDS</item>
+        <item>AIRFORCE X/Y</item>
+        <item>NAVY SSR</item>
+        <item>NIMCET MCA</item>
+        <item>SSC GD</item>
+        <item>OTHER</item>
+    </string-array>
+</resources>
