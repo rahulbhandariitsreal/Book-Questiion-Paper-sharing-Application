@@ -6,8 +6,17 @@
     <string-array name="courses_name">
         <item>SELECT COURSE</item>
         <item>NDA</item>
-        <item>CBSE 10</item>
-        <item>CBSE 12</item>
+        <item>CBSE 10-ENGLISH</item>
+        <item>CBSE 10-MATHS</item>
+        <item>CBSE 10-PHYSICS</item>
+        <item>CBSE 10-CHEMISTRY</item>
+        <item>CBSE 10-COMPUTER SCIENCE</item>
+        <item>CBSE 10-PHYSICAL EDUCATION</item>
+        <item>CBSE 12-MATHS</item>
+        <item>CBSE 12-PHYSICS</item>
+        <item>CBSE 12-CHEMISTRY</item>
+        <item>CBSE 12-COMPUTER SCIENCE</item>
+        <item>CBSE 12-PHYSICAL EDUCATION</item>
         <item>CDS</item>
         <item>AIRFORCE X/Y</item>
         <item>NAVY SSR</item>

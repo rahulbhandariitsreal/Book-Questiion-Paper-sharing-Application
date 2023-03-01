@@ -38,6 +38,9 @@ public class PDFListActivity extends AppCompatActivity implements ClickListener 
         setContentView(binding.getRoot());
         COURSE_NAME=getIntent().getStringExtra("course_name");
         binding.tittle.setText(COURSE_NAME);
+
+
+
         recyclerView=findViewById(R.id.showrecyclerlist);
         adapter=new List_Adapter(list_pdf,this,2);
         adapter.setListener(this);
@@ -84,5 +87,9 @@ public class PDFListActivity extends AppCompatActivity implements ClickListener 
         intent.putExtra("course_name",COURSE_NAME);
         startActivity(intent);
 
+    }
+
+    public void exitmefromlist(View view) {
+        onBackPressed();
     }
 }

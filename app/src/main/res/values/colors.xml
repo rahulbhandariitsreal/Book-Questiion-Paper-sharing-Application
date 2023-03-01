@@ -9,5 +9,7 @@
     <color name="white">#FFFFFFFF</color>
 
 
-    <color name="primarycolor">#3CA0CD</color>
+    <color name="primarycolor">#0D0E0E</color>
+    <color name="action_bar_color">#363A3A</color>
+
 </resources>

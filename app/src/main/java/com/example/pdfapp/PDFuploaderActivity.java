@@ -167,7 +167,6 @@ if(TextUtils.isEmpty(PDFname) || TextUtils.isEmpty(PDFrelatedto) || TextUtils.is
              * move to the first row in the Cursor, get the data,
              * and display it.
              */
-            int nameIndex = returnCursor.getColumnIndex(OpenableColumns.DISPLAY_NAME);
             int sizeIndex = returnCursor.getColumnIndex(OpenableColumns.SIZE);
             returnCursor.moveToFirst();
             sizeofpdf= Long.parseLong(Long.toString(returnCursor.getLong(sizeIndex)));

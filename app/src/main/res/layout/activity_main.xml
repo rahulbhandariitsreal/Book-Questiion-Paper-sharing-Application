@@ -3,31 +3,34 @@
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    android:background="#F4F5F6"
+    android:background="@color/primarycolor"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".view.MainActivity">
 
-    <ImageView
-        android:layout_width="100dp"
-        android:layout_height="100dp"
-        android:src="@drawable/exam"
-        android:layout_above="@+id/tittle1"
-        android:background="@color/white"
-        android:layout_centerHorizontal="true"
-        android:layout_marginBottom="100dp"
-        />
 
+    <ImageView
+        android:layout_width="300dp"
+        android:layout_height="3000dp"
+        android:layout_above="@+id/tittle1"
+        android:scaleType="centerCrop"
+        android:layout_marginBottom="17dp"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="20dp"
+        android:layout_centerHorizontal="true"
+        android:background="@color/primarycolor"
+        android:src="@drawable/logomain" />
 
     <TextView
         android:id="@+id/tittle1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
         android:text="@string/question_papers"
         android:layout_centerInParent="true"
         android:textSize="30sp"
         android:textStyle="bold"
-        android:textColor="@color/black"
+        android:textColor="@color/white"
         />
 
     <TextView
@@ -35,13 +38,12 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_below="@id/tittle1"
-        android:text="developed by growth addicted"
         android:layout_centerInParent="true"
         android:layout_marginTop="90dp"
+        android:text="developed by RS CREATION"
+        android:textColor="@color/white"
         android:textSize="20sp"
-        android:textStyle="italic"
-        android:textColor="@color/black"
-        />
+        android:textStyle="italic" />
 
 
 

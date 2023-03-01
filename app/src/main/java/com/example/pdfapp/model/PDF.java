@@ -7,8 +7,6 @@ public class PDF {
 
     private String name;
     private String pdfURI;
-
-    
     private String relatedto;
 
     public PDF(String name, String pdfURI, String relatedto) {

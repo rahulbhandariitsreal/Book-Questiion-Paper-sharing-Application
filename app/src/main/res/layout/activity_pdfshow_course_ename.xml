@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@color/primarycolor"
     tools:context=".view.PDFShowCourseEName">
 
     <LinearLayout
@@ -11,8 +12,16 @@
         android:layout_height="wrap_content"
         android:id="@+id/ll1"
         android:layout_alignParentTop="true"
-        android:background="@color/primarycolor"
+        android:background="@color/action_bar_color"
         android:orientation="horizontal">
+
+        <ImageButton
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:src="@drawable/baseline_arrow_back_24"
+            android:background="@color/action_bar_color"
+            android:onClick="exitme"
+            />
 
 
         <TextView
@@ -26,11 +35,10 @@
 
         <ImageButton
             android:layout_width="50dp"
-            android:padding="10dp"
             android:layout_height="50dp"
             android:layout_gravity="end"
             android:onClick="Addpdf"
-            android:layout_marginStart="200dp"
+            android:layout_marginStart="150dp"
             android:src="@drawable/baseline_add_box_24" />
 
     </LinearLayout>
